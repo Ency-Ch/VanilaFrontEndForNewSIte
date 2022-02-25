@@ -22,3 +22,106 @@ html {
   opacity: 1;
   transform: translateY(0);
 }
+.votes {
+  text-align: center;
+}
+#comments {
+  text-align: center;
+}
+#loading {
+  text-align: center;
+}
+/* .navbar {
+  text-align: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.get-article-button {
+  background-color: lightblue;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.5em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 25px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+#upvotes {
+  background-color: lightblue;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.5em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 25px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+}
+#down-votes {
+  background-color: rgb(231, 177, 177);
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.5em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 25px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+}
+
+.allcommentslist {
+  padding: 20px;
+  border-style: solid;
+  border-width: thin;
+}
+
+.author-paragraph {
+  text-align: center;
+}
+
+.delete-button {
+  background-color: rgb(231, 177, 177);
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.5em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 25px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+}
+
+#loading {
+  text-align: center;
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+}
+
+#about-section {
+  text-align: center;
+  margin: 25px;
+  width: 350px;
+  height: 200px;
+} */

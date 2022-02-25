@@ -1,54 +1,79 @@
-<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="index.css" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel = 'stylesheet' href = 'index.css'>
     <title>RedditClone</title>
   </head>
   <body>
-    <div class="navbar">
-      <h1>About</h1>
-      <div class="p">welcome to the badest news site on earth</div>
-      <li class="topic">topic</li>
-      <li class="topic">topic</li>
-      <li class="topic">topic</li>
+    <div class= 'navbar'>
+      <h1><em>le brucheta</em> </h1>
+      <div class="p">the badest news site on earth</div>
+      <ul id = 'topics-list'></ul>
     </div>
-    <div href ='#come-back-here'></div>
+
+    <div class = 'container'>
+    <img id ='loading' src="loading.gif" alt="">
+    <!-- this is all the articles-->
+ 
     <div class="allarticles">
+      <!-- this is all the articles-->
       <ul id="articlesList"></ul>
+      <!-- this paragraph tells us what topic by which the articles are sorted by-->
+      <p id = 'the-topic'></p>
+      <!--if we sort and filter this is what we get-->
+      <ul id = 'allArticles-Sorted'></ul> 
     </div>
+    </div>
+    
+<!-- this is an individual article-->
     <section>
-          <div class="container">
+      <div class="container" id = 'individual-article'>
       <h1 id="article-header"></h1>
+
       <p id="article-author"></p>
-      <button id="upvotes">UP Votes</button>
-      <button id="down-votes">Down Votes</button>
-       <button class = 'up_button'>Back Up</button>
-      <p id="article-votes"></p>
+
+      <button class = 'up_button'>Back Up</button>
+      <p id=""></p>
+     
       <p id="oneArticle"></p>
       <p id="back-to-main-page"></p>
-      <div id="comments">
-        <div id = 'individual-article' class="container">
-          <label for="">New Comments</label>
+      <div class = 'votes'>
+        
+        <label>Article Votes</label>
+        <div> <input id = 'article-votes' type="number" disabled ></div>
+        
+        <br>
+      <button type ='button' id="upvotes"  class = 'btn btn-primary'>Up Votes</button>
+      <button type = 'button' id="down-votes" class = 'btn btn-danger'>Down Votes</button>
+      </div>
+      <div id="comments" class = "container" >
+      <div class="container">
+      <h2>New Comments</h2>
+      </div>
+      <form  id = 'post-comment-form'>
+        <div class = 'container'>
+      <textarea class ='container' id="new-comments" name="" cols="30" rows="10" required>
+      </textarea>
         </div>
-
-        <textarea id="new-comments" name="" cols="30" rows="10"></textarea>
-        <h2 id="comments">Comments</h2>
+      <div> <button  type="submit" class="btn btn-primary">Post Comment</button></div>
+      </form>
+     <div>  
+       <div class = 'container'>
+             <h2 id = 'comments'>Comments</h2>
         <ul class="container" id="allarticles-comments"></ul>
       </div>
-      <!-- the article-->
+       </div>    
+      </div>
+   <!-- this is an individual article-->
+   </div>
     </section>
-  
     </div>
     <script src="utils.js"></script>
+    <script src = Untitled.js></script>
+   
   </body>
 </html>
